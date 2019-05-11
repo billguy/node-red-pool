@@ -1,0 +1,7 @@
+var text = "The pool temperature is ";
+var temp = flow.get("temp");
+if (temp)
+    msg.message = text + temp + " degrees";
+else
+    msg.message = text + "unavailable at the moment";
+return msg;

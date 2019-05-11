@@ -1,0 +1,9 @@
+if (msg.payload == 1){
+    var temp = flow.get("temp");
+    //node.warn(temp);
+    if (!temp)
+        temp = "wait";
+    return { "payload": temp + "°"};
+} else {
+    return { "payload": "" };
+}

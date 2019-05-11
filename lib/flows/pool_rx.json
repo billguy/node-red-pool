@@ -1,0 +1,1 @@
+[{"id":"20f38311.aa4ebc","type":"function","z":"1c4dc499.edc8fb","name":"store temp","func":"msg.payload = [\"temp\", msg.payload.temp]\nreturn msg;","outputs":1,"noerr":0,"x":610,"y":300,"wires":[["705301f0.ea3c6"]]}]

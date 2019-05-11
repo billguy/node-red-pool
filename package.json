@@ -1,0 +1,12 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "node-red-contrib-cast": "~0.2.6",
+    "node-red-contrib-generic-ble": "~3.0.0",
+    "node-red-contrib-git-nodes": "~0.2.2",
+    "node-red-contrib-httpauth": "~1.0.12"
+  }
+}
