@@ -642,7 +642,7 @@
   "node-red-contrib-git-nodes": {
    "name": "node-red-contrib-git-nodes",
    "version": "0.2.2",
-   "local": false,
+   "local": true,
    "nodes": {
     "git-nodes": {
      "name": "git-nodes",
@@ -669,7 +669,7 @@
   "node-red-contrib-generic-ble": {
    "name": "node-red-contrib-generic-ble",
    "version": "3.0.0",
-   "local": false,
+   "local": true,
    "nodes": {
     "generic-ble": {
      "name": "generic-ble",
@@ -682,6 +682,35 @@
      "local": true,
      "module": "node-red-contrib-generic-ble",
      "file": "/home/pi/.node-red/node_modules/node-red-contrib-generic-ble/dist/generic-ble.js"
+    }
+   }
+  },
+  "node-red-contrib-oled": {
+   "name": "node-red-contrib-oled",
+   "version": "0.1.0",
+   "local": true,
+   "nodes": {
+    "oled": {
+     "name": "oled",
+     "types": [
+      "oled-config",
+      "String",
+      "Clear",
+      "Dimmed",
+      "Invertion",
+      "Turn-on",
+      "Turn-off",
+      "Pixel",
+      "Line",
+      "FillRectangle",
+      "Scroll",
+      "Battery",
+      "Wifi"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-oled",
+     "file": "/home/pi/.node-red/node_modules/node-red-contrib-oled/oled.js"
     }
    }
   }
